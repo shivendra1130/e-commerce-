@@ -1,21 +1,21 @@
 // Product Data with categories
 const products = [
-    { id: 1, name: 'Wireless Headphones', price: 2999, originalPrice: 4999, discount: 40, category: 'electronics', rating: 4.2, image: 'https://rukminim2.flixcart.com/image/832/832/xif0q/headphone/0/k/4/-original-imahekevgrz9z6rf.jpeg?q=70&crop=false' },
-    { id: 2, name: 'Smart Watch', price: 7999, originalPrice: 12999, discount: 38, category: 'electronics', rating: 4.5, image: 'https://rukminim2.flixcart.com/image/832/832/xif0q/smartwatch/k/m/r/-original-imahftghtqjhjgjy.jpeg?q=70&crop=false' },
-    { id: 3, name: 'Laptop', price: 49999, originalPrice: 69999, discount: 28, category: 'laptop', rating: 4.3, image: 'https://rukminim2.flixcart.com/image/832/832/xif0q/computer/e/m/7/-original-imahcymx2h6teg2g.jpeg?q=70&crop=false' },
-    { id: 4, name: 'Smartphone', price: 19999, originalPrice: 29999, discount: 33, category: 'mobile', rating: 4.4, image: 'https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/n/v/a/-original-imahft5nxmyqndhf.jpeg?q=70&crop=false' },
-    { id: 5, name: 'Tablet', price: 14999, originalPrice: 21999, discount: 31, category: 'mobile', rating: 4.1, image: 'https://rukminim2.flixcart.com/image/832/832/xif0q/tablet/f/6/y/-original-imahfey6ngqwwhy8.jpeg?q=70&crop=false' },
-    { id: 6, name: 'DSLR Camera', price: 34999, originalPrice: 49999, discount: 30, category: 'electronics', rating: 4.6, image: 'https://rukminim2.flixcart.com/image/312/312/xif0q/dslr-camera/o/m/9/-original-imagz5tqukkm6h8m.jpeg?q=70' },
-    { id: 7, name: 'Gaming Console', price: 29999, originalPrice: 39999, discount: 25, category: 'gaming', rating: 4.7, image: 'https://rukminim2.flixcart.com/image/832/832/xif0q/gamingconsole/d/t/z/visual-2000-gb-internal-storage-ultra-fast-ssd-sony-ps5-pro-2-tb-original-imahbfgcppjhexme.jpeg?q=70&crop=false' },
-    { id: 8, name: 'Bluetooth Speaker', price: 1999, originalPrice: 3499, discount: 42, category: 'accessories', rating: 4.0, image: 'https://rukminim2.flixcart.com/image/832/832/xif0q/speaker/i/l/q/-original-imah4ggahyyzczbw.jpeg?q=70&crop=false' },
-    { id: 9, name: 'Fitness Tracker', price: 2999, originalPrice: 4999, discount: 40, category: 'accessories', rating: 4.2, image: 'https://rukminim2.flixcart.com/image/832/832/xif0q/smart-band-tag/k/d/f/-original-imahgfmspn4gs24d.jpeg?q=70&crop=false' },
-    { id: 10, name: 'Wireless Mouse', price: 899, originalPrice: 1499, discount: 40, category: 'accessories', rating: 4.1, image: 'https://rukminim2.flixcart.com/image/832/832/xif0q/mouse/l/2/e/vader-pro-wireless-gaming-mouse-with-6-buttons-thumb-comfort-original-imagz7yeuzknfhfw.jpeg?q=70&crop=false' },
-    { id: 11, name: 'Mechanical Keyboard', price: 4999, originalPrice: 6999, discount: 28, category: 'accessories', rating: 4.4, image: 'https://rukminim2.flixcart.com/image/832/832/xif0q/keyboard/gaming-keyboard/e/x/u/katana-s-mini-rechargeable-mechanical-tri-mode-3xbt-2-4ghz-wired-original-imahdmh5dxudyhhw.jpeg?q=70&crop=false' },
-    { id: 12, name: 'LED Monitor', price: 12999, originalPrice: 18999, discount: 31, category: 'electronics', rating: 4.3, image: 'https://rukminim2.flixcart.com/image/832/832/xif0q/monitor/a/h/h/ed343cur-x0-uwqhd-34-2025-um-ce3si-001-acer-original-imahg66f6xyhwbcn.jpeg?q=70&crop=false' },
-    { id: 13, name: 'Gaming Mouse', price: 2499, originalPrice: 3999, discount: 37, category: 'gaming', rating: 4.5, image: 'https://rukminim2.flixcart.com/image/832/832/xif0q/mouse/w/s/h/aerostrike-wired-usb-gaming-mouse-with-7-buttons-stylish-grip-original-imahcz5jpffj7vb9.jpeg?q=70&crop=false' },
-    { id: 14, name: 'Gaming Keyboard', price: 5999, originalPrice: 8999, discount: 33, category: 'gaming', rating: 4.6, image: 'https://rukminim2.flixcart.com/image/832/832/xif0q/keyboard/multi-device-keyboard/z/c/d/mk1001-one-handed-rgb-backlit-35-keys-gaming-ant-esports-original-imagt2kstgznvzsd.jpeg?q=70&crop=false' },
-    { id: 15, name: 'Gaming Headset', price: 3999, originalPrice: 5999, discount: 33, category: 'gaming', rating: 4.4, image: 'https://rukminim2.flixcart.com/image/832/832/xif0q/headphone/y/d/0/zeb-jet-pro-zebronics-original-imah9zecgdrt8dqz.jpeg?q=70&crop=false' },
-    { id: 16, name: 'Smart TV', price: 24999, originalPrice: 34999, discount: 28, category: 'electronics', rating: 4.5, image: 'https://rukminim2.flixcart.com/image/832/832/xif0q/television/s/l/j/-original-imahgfyugcvyeeny.jpeg?q=70&crop=false' }
+    { id: 1, name: 'Wireless Headphones', price: 2999, originalPrice: 4999, discount: 40, category: 'electronics', rating: 4.2, image: 'assets/headphone.webp' },
+    { id: 2, name: 'Smart Watch', price: 7999, originalPrice: 12999, discount: 38, category: 'electronics', rating: 4.5, image: 'assets/Smarkwatch.webp' },
+    { id: 3, name: 'Laptop', price: 49999, originalPrice: 69999, discount: 28, category: 'laptop', rating: 4.3, image: 'assets/laptop.webp' },
+    { id: 4, name: 'Smartphone', price: 19999, originalPrice: 29999, discount: 33, category: 'mobile', rating: 4.4, image: 'assets/Smart Phones.webp' },
+    { id: 5, name: 'Tablet', price: 14999, originalPrice: 21999, discount: 31, category: 'mobile', rating: 4.1, image: 'assets/Tablets.webp' },
+    { id: 6, name: 'DSLR Camera', price: 34999, originalPrice: 49999, discount: 30, category: 'electronics', rating: 4.6, image: 'assets/Camera.webp' },
+    { id: 7, name: 'Gaming Console', price: 29999, originalPrice: 39999, discount: 25, category: 'gaming', rating: 4.7, image: 'assets/Gaming console.webp' },
+    { id: 8, name: 'Bluetooth Speaker', price: 1999, originalPrice: 3499, discount: 42, category: 'accessories', rating: 4.0, image: 'assets/Speakers.webp' },
+    { id: 9, name: 'Fitness Tracker', price: 2999, originalPrice: 4999, discount: 40, category: 'accessories', rating: 4.2, image: 'assets/FitnessTracker.webp' },
+    { id: 10, name: 'Wireless Mouse', price: 899, originalPrice: 1499, discount: 40, category: 'accessories', rating: 4.1, image: 'assets/Gamingmouse.webp' },
+    { id: 11, name: 'Mechanical Keyboard', price: 4999, originalPrice: 6999, discount: 28, category: 'accessories', rating: 4.4, image: 'assets/Gamingkeyboard.webp' },
+    { id: 12, name: 'LED Monitor', price: 12999, originalPrice: 18999, discount: 31, category: 'electronics', rating: 4.3, image: 'assets/Monitor.webp' },
+    { id: 13, name: 'Gaming Mouse', price: 2499, originalPrice: 3999, discount: 37, category: 'gaming', rating: 4.5, image: 'assets/Gamingmouse1.webp' },
+    { id: 14, name: 'Gaming Keyboard', price: 5999, originalPrice: 8999, discount: 33, category: 'gaming', rating: 4.6, image: 'assets/Gamingkeyboard1.webp' },
+    { id: 15, name: 'Gaming Headset', price: 3999, originalPrice: 5999, discount: 33, category: 'gaming', rating: 4.4, image: 'assets/GamingHeadsets.webp' },
+    { id: 16, name: 'Smart TV', price: 24999, originalPrice: 34999, discount: 28, category: 'electronics', rating: 4.5, image: 'assets/SmartTV.webp' }
 ];
 
 // Cart Data
