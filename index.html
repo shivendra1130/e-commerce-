@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +9,10 @@
 </head>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link
+    href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
 <body>
     <!-- Top Header -->
     <div class="top-header">
@@ -21,14 +25,15 @@
                         </div>
                     </a>
                     <div class="search-container">
-                        <input type="text" class="search-box" id="searchBox" placeholder="Search for products, brands and more" onkeyup="searchProducts(event)">
+                        <input type="text" class="search-box" id="searchBox"
+                            placeholder="Search for products, brands and more" onkeyup="searchProducts(event)">
                         <button class="search-btn" onclick="performSearch()">
                             <img src="assets/751463.png" alt="search" class="mag">
                         </button>
                     </div>
                 </div>
                 <div class="header-right">
-                    <button class="btn-login">Login</button>
+                    <a href="login.html" class="btn-login">Login</a>
                     <div class="cart-icon" onclick="toggleCart()">
                         <span class="cart-text">Cart</span>
                         <span class="cart-count" id="cartCount">0</span>

@@ -1,0 +1,243 @@
+/* Minimal Login Page Styles */
+
+.login-container {
+    min-height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 16px;
+    background: #f1f3f6;
+}
+
+.login-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 380px;
+    padding: 30px;
+}
+
+.login-title {
+    font-size: 24px;
+    color: #212121;
+    margin: 0 0 20px 0;
+    text-align: center;
+    font-weight: 600;
+}
+
+/* Form Groups */
+.form-group {
+    margin-bottom: 16px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid #d0d0d0;
+    border-radius: 6px;
+    font-size: 14px;
+    font-family: inherit;
+    background: #f9f9f9;
+}
+
+.form-input:focus {
+    outline: none;
+    border-color: #2874f0;
+    background: white;
+    box-shadow: 0 0 0 3px rgba(40, 116, 240, 0.1);
+}
+
+.form-input::placeholder {
+    color: #b0bec5;
+}
+
+.password-input-group {
+    position: relative;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 0;
+}
+
+/* Login Button */
+.btn-login-submit {
+    width: 100%;
+    padding: 12px;
+    background: #2874f0;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 16px;
+}
+
+.btn-login-submit:hover {
+    background: #1e5aa3;
+}
+
+/* Divider */
+.divider {
+    position: relative;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.divider span {
+    background: white;
+    padding: 0 10px;
+    color: #878787;
+    font-size: 13px;
+    position: relative;
+    z-index: 1;
+}
+
+.divider::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: #d0d0d0;
+    transform: translateY(-50%);
+}
+
+/* Social Login */
+.social-login {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 16px;
+}
+
+.social-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 10px 12px;
+    border: 1px solid #d0d0d0;
+    background: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.social-btn:hover {
+    background: #f5f5f5;
+    border-color: #2874f0;
+}
+
+.google-btn {
+    color: #ea4335;
+}
+
+.gmail-btn {
+    color: #2874f0;
+}
+
+/* Sign Up Text */
+.signup-text {
+    text-align: center;
+    font-size: 13px;
+    color: #212121;
+    margin: 0;
+    padding-top: 12px;
+    border-top: 1px solid #e0e0e0;
+}
+
+.signup-text a {
+    color: #2874f0;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.signup-text a:hover {
+    text-decoration: underline;
+}
+
+/* Modal Styles */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+}
+
+.modal.hidden {
+    display: none;
+}
+
+.modal-content {
+    background: white;
+    border-radius: 8px;
+    max-width: 350px;
+    width: 90%;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    padding: 24px;
+    text-align: center;
+}
+
+.modal-content.error {
+    border-top: 3px solid #ea4335;
+}
+
+.modal-content h2 {
+    font-size: 18px;
+    color: #212121;
+    margin: 0 0 12px 0;
+}
+
+.modal-content p {
+    color: #878787;
+    font-size: 14px;
+    margin: 0 0 16px 0;
+}
+
+.btn-close {
+    padding: 10px 24px;
+    background: #2874f0;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-close:hover {
+    background: #2560a8;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+    .login-card {
+        padding: 20px;
+    }
+
+    .login-title {
+        font-size: 20px;
+    }
+
+    .social-login {
+        grid-template-columns: 1fr;
+    }
+}
