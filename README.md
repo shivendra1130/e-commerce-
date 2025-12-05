@@ -131,10 +131,6 @@ Replace `li.png` in `Assets/` folder with your custom logo
 
 This project is open source and available under the MIT License.
 
-## 👨‍💻 Author
-
-**Shivendra** - E-Commerce Project
-- GitHub: [@shivendra1130](https://github.com/shivendra1130)
 
 ## 🤝 Contributing
 
